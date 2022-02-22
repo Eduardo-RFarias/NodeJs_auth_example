@@ -4,14 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-django-cors-headers = "*"
-django-filter = "*"
+django = "~=4.0.2"
+djangorestframework = "~=3.13.1"
+django-cors-headers = "~=3.11.0"
+django-filter = "~=21.1"
+psycopg2-binary = "~=2.9.3"
+django-model-utils = "~=4.2.0"
 
 [dev-packages]
-flake8 = "*"
-black = "*"
+flake8 = "~=4.0.1"
+black = "~=22.1.0"
+coverage = "~=6.3.2"
 
 [requires]
 python_version = "3.9"

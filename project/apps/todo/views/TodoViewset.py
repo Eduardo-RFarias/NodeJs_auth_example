@@ -1,8 +1,8 @@
 from rest_framework import viewsets
 
-from .models import Todo
-from .serializer import TodoSerializer
-from .filters import TodoFilter
+from ..models import Todo
+from ..serializers import TodoSerializer
+from ..filters import TodoFilter
 
 # Create your views here.
 

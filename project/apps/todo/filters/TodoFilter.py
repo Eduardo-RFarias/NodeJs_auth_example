@@ -1,6 +1,6 @@
 from django_filters import rest_framework as filters
 
-from .models import Todo
+from ..models import Todo
 
 
 class TodoFilter(filters.FilterSet):
