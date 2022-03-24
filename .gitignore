@@ -62,3 +62,5 @@ build/
 
 # IMPORTANT always ignore .build.env file
 **/.build.env
+
+database/db.sqlite
